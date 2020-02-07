@@ -81,6 +81,7 @@ footer {
     margin-top: 80px;
     margin-right: 150px;
     height: 200px;
+    margin-bottom: -30px;
 }
 
 .float-left {
@@ -88,6 +89,7 @@ footer {
     margin-top: 80px;
     margin-left: 150px;
     height: 200px;
+    margin-bottom: -30px;
 }
 
 label {
@@ -99,3 +101,19 @@ label {
 #example-message {
     height: 150px;
 }
+
+.btn-primary {
+    color: #fff;
+    background-color: teal;
+    border-color: black;
+}
+
+#lastPlaceholder {
+    float: left!important;
+    margin-top: 80px;
+    margin-left: 150px;
+    height: 200px;
+    margin-bottom: 125px;
+    z-index: 9;
+}
+
