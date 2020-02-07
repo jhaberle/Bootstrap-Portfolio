@@ -8,10 +8,13 @@
     margin-left: -20px;
 }
 
-p {
+
+body  {
     font-family:'Arimo',sans-serif;
+}
+
+p {
     width: 1000px;
-    
 }
 
 .display-2 {
@@ -73,3 +76,26 @@ footer {
   background-image:url(http://rs257.pbsrc.com/albums/hh234/tfm448/Snow411.gif~c200)
 }
 
+.float-right {
+    float: right!important;
+    margin-top: 80px;
+    margin-right: 150px;
+    height: 200px;
+}
+
+.float-left {
+    float: left!important;
+    margin-top: 80px;
+    margin-left: 150px;
+    height: 200px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    margin-top: 30px;
+}
+
+#example-message {
+    height: 150px;
+}
