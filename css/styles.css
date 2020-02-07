@@ -1,10 +1,11 @@
 
 
-    #Jake {
+#Jake {
     float: left;
     padding: 0 20px 0 20px;
     height: 200px;
     width: 250px;
+    margin-left: -20px;
 }
 
 p {
@@ -16,10 +17,12 @@ p {
 .display-2 {
     font-size: 3rem;
     color: teal;
+    
 }
 
 .navbar-light .navbar-brand {
     color:teal;
+    margin-left: 225px;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
@@ -32,16 +35,41 @@ p {
     float: right;
 }
 
-footer {
+/*footer {
     text-align: center;
     width: 100%;
     height: 50px;
     background-color: teal;
     color: white;
-}
+}*/
 
 .underline {
     height: 5px;
-    width: 1024px;
+    width: 1060px;
     background-color: teal;
 }
+
+footer {
+    background:url("https://static.pexels.com/photos/1440/city-road-street-buildings.jpg") no-repeat center / contain;
+  background-color:#eee;
+  position:relative; 
+}
+
+#sticky {
+  width:100%;
+  padding:20px;
+  padding-bottom:16px;
+  background:black;
+  color:white;
+  font-weight:bold;
+  font-size:18px;
+  text-align:center;
+  position:fixed;    
+  bottom:0;          
+  left:0;            
+  
+  
+  border-top:1px solid whitesmoke;
+  background-image:url(http://rs257.pbsrc.com/albums/hh234/tfm448/Snow411.gif~c200)
+}
+
