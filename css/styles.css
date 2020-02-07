@@ -1,0 +1,47 @@
+
+
+    #Jake {
+    float: left;
+    padding: 0 20px 0 20px;
+    height: 200px;
+    width: 250px;
+}
+
+p {
+    font-family:'Arimo',sans-serif;
+    width: 1000px;
+    
+}
+
+.display-2 {
+    font-size: 3rem;
+    color: teal;
+}
+
+.navbar-light .navbar-brand {
+    color:teal;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: teal;
+    float: right;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: teal;
+    float: right;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: teal;
+    color: white;
+}
+
+.underline {
+    height: 5px;
+    width: 1024px;
+    background-color: teal;
+}

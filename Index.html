@@ -5,42 +5,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,700&display=swap" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
     <title>Bootstrap Portfolio</title>
 </head>
 <body>
-
-  <div class="container">  
-    <div class="row">
-      <div class="col-sm-4">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#"><strong>Jake Haberle</strong></a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Jake Haberle</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
+            </li>
+          </ul>
+        </div>
       </nav>
-    </div>
-      <div class="col-sm-4"></div>
-      <div class="col-sm-4"><ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
-        </li>
-      </ul>
-    </div>
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <div class="header">
+              <h1 class="display-2">About Me</h1>
+          </div>
+          <div class="class">
+            <div class="underline"></div>
+          </div>
+          <br>
+          <br>
+          <div class="photo">
+          <img src="images/Jake.PNG" id="Jake">
+          </div>
+          <div class="row">
+            
+              <p class="lead">
+                Hi there, my name is Jake Haberle.  I am 34 years old and I grew up in Parker, Colorado.  I have a beautiful wife, Heather, along with two boys Josh (4),and Dylan (1 1/2).  I love my family more than life itself even though they are making my hair fall out and taking years off of my life.  If I ever have free time I absolutely love going skiing, watching the Broncos and concocting new whiskey coctails!
+                <br>
+                <br>
+                I currently work at Empower Retirement in Investment Operations as a Valuations Analyst.  I enjoy my role quite a bit, however, many functions within our team are being out-sourced.  I'm thrilled to have the opportunity to learn a new skill-set and seek out a new future for myself.
+              </p>
+            </div>
+            
 
+          </div>  
           
-  </div>
-  
-    
-  
+        </div>
+      </div>
 
-       
-  
-    
+     
+
+      
 </body>
+<div class="footer">
+  <footer><strong>Copyright Habes Industries</strong></footer>
+</div>
+
+
+
 </html>
