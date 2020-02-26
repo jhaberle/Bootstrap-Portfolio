@@ -78,7 +78,7 @@ footer {
   background-image:url(http://rs257.pbsrc.com/albums/hh234/tfm448/Snow411.gif~c200)
 }
 
-.float-right {
+/* .float-right {
     float: right!important;
     margin-top: 80px;
     margin-right: 150px;
@@ -92,6 +92,10 @@ footer {
     margin-left: 150px;
     height: 200px;
     margin-bottom: -30px;
+} */
+
+#placeholders {
+    margin-top: 30px;
 }
 
 label {
@@ -119,3 +123,11 @@ label {
     z-index: 9;
 }
 
+.card {
+    margin-top: 30px;
+   
+}
+
+#guess {
+    height:100%;
+}
